@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project type="activity" builder="java">
+    <name>InteractiveSpaces Liquid Galaxy Moon</name>
+    <description>
+
+    </description>
+
+    <identifyingName>is.lg.moon</identifyingName>
+    <version>1.0.0</version>
+</project>

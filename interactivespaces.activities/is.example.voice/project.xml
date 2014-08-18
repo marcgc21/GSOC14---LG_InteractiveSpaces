@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<project type="activity" builder="java">
+    <name>interactive spaces test</name>
+    <description>
+
+    </description>
+
+    <identifyingName>interactivespaces.example.voice</identifyingName>
+    <version>1.0.0</version>
+</project>

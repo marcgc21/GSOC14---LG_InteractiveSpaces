@@ -3,8 +3,8 @@
 <p>This is the wiki that connects a LiquidGalaxy and InteractiveSpaces environment using speech recognition.</p>
 <p>In this project you will find the following things:
 <ul>
-  <li>An improved installation about Liquid Galaxy grid including peruse-a-rue.</li>
-  <li>An installation of InteractiveSpaces.</li>
+  <li>An improved installation about <a href="https://github.com/marcgc21/LG_InteractiveSpaces/wiki/INSTALL-LiquidGalaxy">Liquid Galaxy</a> grid including peruse-a-rue.</li>
+  <li>An installation of <a href="https://github.com/marcgc21/LG_InteractiveSpaces/wiki/INSTALL-InteractiveSpaces">InteractiveSpaces</a>.</li>
   <li>A bounch of activities that works on InteractiveSpaces using voice recognition</li>
   <li>A new front-end touchscreen to be used on LG installation.</li>
 </ul>

@@ -5,8 +5,8 @@
 <ul>
   <li>An improved installation about <a href="https://github.com/marcgc21/LG_InteractiveSpaces/wiki/INSTALL-LiquidGalaxy">Liquid Galaxy</a> grid including peruse-a-rue.</li>
   <li>An installation of <a href="https://github.com/marcgc21/LG_InteractiveSpaces/wiki/INSTALL-InteractiveSpaces">InteractiveSpaces</a>.</li>
-  <li>A bounch of activities that works on InteractiveSpaces using voice recognition</li>
-  <li>A new front-end touchscreen to be used on LG installation.</li>
+  <li>A bounch of <a href="https://github.com/marcgc21/LG_InteractiveSpaces/wiki/IS---Activities">activities</a> that works on InteractiveSpaces using voice recognition</li>
+  <li>A new front-end <a href="https://github.com/marcgc21/LG_touchscreen">touchscreen</a> to be used on LG installation.</li>
 </ul>
 
 

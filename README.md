@@ -11,5 +11,5 @@
 
 
 
-Please read my wiki in order to fins any information that you could need to understand and install my project: https://github.com/marcgc21/GSOC14-LG_InteractiveSpaces/wiki
+Please read my wiki in order to find information that you could need to understand and install the different parts of my project: https://github.com/marcgc21/GSOC14-LG_InteractiveSpaces/wiki
 

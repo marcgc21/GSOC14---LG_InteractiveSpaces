@@ -24,7 +24,6 @@
 		      $('#status').text("The WebSocket Connection Is Open."); 
 		  }
 		  ws.onmessage = function(event) { 
-		  	console.log("hello");
 		      var data = JSON.parse(event.data);
 		      console.log(data);
 		      if(data.message=="ON"){
@@ -61,105 +60,102 @@
 		</div>
 	</div>
 	
+	
 	<div id="right">
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="send_voice('search=0.681943, 23.459048');">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 11'],'click');">
 				<img src="img/apollo/apollo11.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 11</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Apollo 12)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 12'],'click');">
 				<img src="img/apollo/apollo12.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 12</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Apollo 13)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 13'],'click');">
 				<img src="img/apollo/apollo13.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 13</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Apollo 14)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 14'],'click');">
 				<img src="img/apollo/apollo14.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 14</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Apollo 15)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 15'],'click');">
 				<img src="img/apollo/apollo15.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 15</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Apollo 16)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Apollo 16'],'click');">
 				<img src="img/apollo/apollo16.png" class="pix" />
 					<div class="txt">
 						<h3>LANDINGS</h3>
 						<h2>Apollo 16</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>			
 		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Mare Tranquillitatis)">
+			<a href="javascript:google.maps.event.trigger(gmarkers['Mare Tranquillitatis'],'click');">
 				<img src="img/moon/mare_tranquillitatis.jpg" class="pix" />
 					<div class="txt">
 						<h3>Mare</h3>
 						<h2>Tranquilitatis</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 		<div class="detailView">
-			<div class="item">
-				<img src="img/moon/mare_tranquillitatis.jpg" class="pix" />
-					<div class="txt">
-						<h3>Mare</h3>
-						<h2>Moskoviense</h2>
-					</div>
-				<div class="clear"></div>
-			</div>		
-		</div>
-		<div class="detailView">
-			<div class="item">
-				<img src="img/moon/mare_tranquillitatis.jpg" class="pix" />
-					<div class="txt">
-						<h3>Mare</h3>
-						<h2></h2>
-					</div>
-				<div class="clear"></div>
-			</div>		
-		</div>
-		<div class="detailView">
-			<div class="item">
+			<div class="item" onclick="changeQuery(Alien)">
+				<a href="javascript:google.maps.event.trigger(gmarkers['Alien'],'click');">
 				<img src="img/moon/mare_tranquillitatis.jpg" class="pix" />
 					<div class="txt">
 						<h3>????</h3>
 						<h2>????</h2>
 					</div>
 				<div class="clear"></div>
+			</a>
 			</div>		
 		</div>
 	</div>
@@ -196,6 +192,7 @@ reco.onEnd = function() {
   		}
   		else if(reco.final_transcript =="Apolo 11"){
   	  		send_voice("search=0.681943, 23.459048");
+  	  		$.get("http://192.168.1.70?POID1=1&POID2=0&POID3=0&POID4=0&POID5=0&POID6=0&POID7=0&POID8=0&POID9=0");
   		}
   		
   	  	else{

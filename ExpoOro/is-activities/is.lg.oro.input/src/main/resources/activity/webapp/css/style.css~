@@ -1,4 +1,33 @@
 
+  html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+
+      }
+	#box{
+		position: absolute;
+		background-color: transparent;
+		z-index:2;
+		margin-left: 60%;
+		text-align:center;
+	}
+	#box2{
+		position: absolute;
+		background-color: transparent;
+		z-index:2;
+		text-align:center;
+	}
+	#box3{
+position: absolute;
+		background-color: black;
+		z-index:2;
+		text-align:center;
+height:100%;
+	width:130px;
+	
+	}
+
 
 /*
 Right DIV information.

@@ -38,7 +38,8 @@ ul and li items defined below.
 	float: right;
 	height:	96%;
 	background:white;
-	overflow-x:scroll;
+	overflow:scroll;
+	overflow-x:hidden;
 	-webkit-overflow-scrolling:touch;	
 }
 
@@ -125,5 +126,9 @@ ul and li items defined below.
 .detailView a img   
 {
 	border:none;
+}
+
+#status_img{
+	width:200px;
 }
 
